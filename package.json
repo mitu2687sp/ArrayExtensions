@@ -1,0 +1,19 @@
+{
+  "name": "array-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ArrayExtensions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitu2687sp/ArrayExtensions.git"
+  },
+  "author": "mitu2687sp <mitu2687sp@gmail.com> (mfgames.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitu2687sp/ArrayExtensions/issues"
+  },
+  "homepage": "https://github.com/mitu2687sp/ArrayExtensions#readme"
+}
