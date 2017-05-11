@@ -10,6 +10,11 @@ Array.prototype.matchInclude = function(pattern){
 Array.prototype.matchNext = function(pattern){
 	var source = Object.assign([], this);
 	var index = source.indexOf(pattern);
+	source.forEach(function(x, i){
+		if(x.toString().indexOf(pattern) == 0){
+			index = i;
+		}
+	})
 	source.splice(0, index + 1);
 	return source;
 };
